@@ -6,4 +6,8 @@ spring:
       server:
         git:
           uri: https://github.com/lfg777/lfg777.git
-          search-paths: my-sample-config
+          search-paths: myconfig
+      profile: myconfig_dev
+  application:
+    name: config-server
+myName: adb
