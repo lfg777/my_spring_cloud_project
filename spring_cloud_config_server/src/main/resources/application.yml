@@ -1,13 +1,12 @@
 server:
   port: 8888
+  application:
+    name: config-server
+myName: adb
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/lfg777/lfg777.git
+          uri: https://github.com/lfg777/lfg777
           search-paths: myconfig
-      profile: myconfig_dev
-  application:
-    name: config-server
-myName: adb
