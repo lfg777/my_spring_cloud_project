@@ -1,20 +1,20 @@
-package com.example.demo;
+package com.example.demo.myController;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Created by lifengguang on 2017/6/5.
+ * Created by lifengguang on 2017/6/7.
  */
 @RestController
 public class MyController {
 
-    @Value("${myName}")
-    private String name;
+    @Value("${mytest}")
+    String name;
 
-    @RequestMapping("/getName")
+    @RequestMapping("/")
     public String getName(){
-        return name;
+        return "hello " + name;
     }
 }
