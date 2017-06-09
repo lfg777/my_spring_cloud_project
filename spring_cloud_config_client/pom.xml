@@ -12,10 +12,9 @@
 	<description>spring_cloud_config_client</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.3.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>my_spring_cloud_project</groupId>
+		<artifactId>my_spring_cloud_project</artifactId>
+		<version>1.0-SNAPSHOT</version>
 	</parent>
 
 	<dependencyManagement>
