@@ -43,7 +43,5 @@
   <modules>
     <module>spring_cloud_config_client</module>
     <module>spring_cloud_config_server</module>
-    <module>spring_cloud_eureka_client</module>
-    <module>spring_cloud_eureka_server</module>
   </modules>
 </project>
